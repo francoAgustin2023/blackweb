@@ -1,0 +1,56 @@
+.publicacion{
+    min-height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.datosDescripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+.datos img{
+    height: 40px;
+    width: 40px;
+}
+
+.imagen{
+    height: 500px;
+    width: 100%;
+}
+
+.imagen img{
+    height: 100%;
+    width: 100%;
+}
+
+.feedback{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    gap: 100px;
+    margin: 10px 0px;
+}
+
+.feedback *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+    background-color: gainsboro;
+}
+
+.feedback *:hover{
+    background-color: antiquewhite;
+}

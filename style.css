@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,42,46,1) 33%, rgba(6,21,24,1) 73%, rgba(6,21,24,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barraBusqueda{
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.barraBusqueda:hover{
+    border-color: bisque;
+    background-color: azure;
+}
+
+.botonBusqueda{
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.botonBusqueda:hover{
+    border-color: bisque;
+    background-color: azure;
+}
+
+.botonBusqueda img{
+    height: 30px;
+    width: 30px;
+}
+
+.grupoEnlacesHeader{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+.centro{
+    position: fixed;
+    margin-top: 80px;
+    background-color: aqua;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menubar{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background-color: black;
+    min-width: 400px;
+    max-width: 20%;
+}
+
+.menubar, .izquierda{
+    height: 100%;
+}
+
+.menubar, .izquierda nav{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.menubar, .central{
+    max-width: 600px;
+    height: 100%;
+}
